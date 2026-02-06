@@ -3,7 +3,7 @@
 This repository contains the tasks completed as part of a machine learning internship. The goal is to demonstrate understanding and implementation of various machine learning techniques on different datasets, including regression, classification, and clustering.
 
 ## Dataset
-**Note**: Datasets were provided for internship purposes and are not included.
+**Note**: Datasets were provided for internship purposes and are not included in this repository.
 - For Task 1, the dataset used is a **House Prediction dataset** containing numerical features to predict house prices.
 
 ## Completed Tasks
