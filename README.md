@@ -11,8 +11,8 @@ Here are the 6 tasks included in this repository:
 
 ### **Task 1: Data Preprocessing for Machine Learning**
 - Added feature names to the dataset.
-- Separated input features (X) and target variable (y).
 - Handled missing data by checking for null values (none were found).
+- Separated input features (X) and target variable (y).
 - Verified that all features are numeric; no encoding required.
 - Split the dataset into training (80%) and testing (20%) sets.
 - Standardized numerical features using `StandardScaler`.
