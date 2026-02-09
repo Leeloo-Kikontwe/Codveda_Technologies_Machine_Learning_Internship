@@ -4,7 +4,8 @@ This repository contains the tasks completed as part of a machine learning inter
 
 ## Dataset
 **Note**: Datasets were provided for internship purposes and are not included in this repository.
-- For Task 1, the dataset used is a **House Prediction dataset** containing numerical features to predict house prices.
+- For Task 1, the dataset used is a **House Prediction dataset**.
+-  For Task 2, the dataset used is a **House Prediction dataset** containing numerical features to predict house prices.
 
 ## Completed Tasks
 Here are the 6 tasks included in this repository:
@@ -19,3 +20,11 @@ Here are the 6 tasks included in this repository:
 - Verified correctness of standardization (mean ≈ 0, std = 1).
 - **Tools:** Python, pandas, scikit-learn  
 - **Notebook:** `Task1/Task1_Level1.ipynb`
+### **Task 2: **Build a Simple Linear Regression Model**
+- Loaded a dataset and preprocessed it.
+- Trained a linear regression model using scikit-learn.
+- Interpreted the model coefficients.
+- Evaluated the model using r2_score, mean_absolute_error (MAE) and mean squared
+error (MSE).
+- **Tools:** Python, pandas, scikit-learn  
+- **Notebook:** `Task2/Task2_Level1.ipynb`
