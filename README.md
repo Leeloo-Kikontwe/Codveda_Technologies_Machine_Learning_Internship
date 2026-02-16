@@ -4,9 +4,10 @@ This repository contains the tasks completed as part of a machine learning inter
 
 ## Dataset
 **Note**: Datasets were provided for internship purposes and are not included in this repository.
-- For Task 1, the dataset used is a **House Predication dataset**.
--  For Task 2, the dataset used is a **House Prediction dataset** containing numerical features to predict house prices.
--  For Task 3, the dataset used is a Telecom Customer Churn dataset for binary classification.
+- For Level 1 Task 1, the dataset used is a **House Predication dataset**.
+-  For Level 1 Task 2, the dataset used is a **House Prediction dataset** containing numerical features to predict house prices.
+-  For Level 2 Task 1, the dataset used is a Telecom Customer Churn dataset for binary classification.
+-For Level 2 Task 2, the dataset used is an iris dataset.
 
 ## Completed Tasks
 Here are the 6 tasks included in this repository:
@@ -47,4 +48,11 @@ error (MSE).
 - Visualized the ROC curve using matplotlib.
 - **Tools:** Python, pandas, scikit-learn, matplotlib
 - **Notebook:** `Task3/Task1_Level2.ipynb`
+### **Task 2: **Decision Trees for Classification**
+- Trained a decision tree on the iris dataset. 
+- Visualized the tree structure using plot_tree.
+- Pruned the tree to prevent overfitting using criterion="entropy", ccp_alpha, min_samples_leaf.
+- Evaluated the model using some classification metrics.
+- **Tools:** Python, pandas, scikit-learn, matplotlib, seaborn.
+- **Notebook:** `Task4/Task2_Level2.ipynb`
 
