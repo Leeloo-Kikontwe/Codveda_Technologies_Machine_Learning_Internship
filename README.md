@@ -1,14 +1,15 @@
 # Machine Learning Internship Project at Codveda Technologies
 
-This repository contains the tasks completed as part of a machine learning internship. The goal is to demonstrate understanding and implementation of various machine learning techniques on different datasets, including regression, classification, and clustering.
+This repository documents a 3-level machine learning internship at Codveda Technologies. The projects cover the full workflow of building predictive models, starting with data cleaning and moving into advanced tasks like sentiment analysis and pattern recognition. By using various algorithms—including regression, decision trees, and ensemble methods—these tasks demonstrate how to turn raw data into useful predictions for real-world scenarios.
 
 ## Dataset
 **Note**: Datasets were provided for internship purposes and are not included in this repository.
-- For Level 1 Task 1, the dataset used is a **House Predication dataset**.
--  For Level 1 Task 2, the dataset used is a **House Prediction dataset** containing numerical features to predict house prices.
+- For Level 1 Task 1, the dataset used is a House Predication dataset.
+-  For Level 1 Task 2, the dataset used is a House Prediction dataset containing numerical features to predict house prices.
 -  For Level 2 Task 1, the dataset used is a Telecom Customer Churn dataset for binary classification.
 -For Level 2 Task 2, the dataset used is an iris dataset.
--For Level 3, Task 2, the dataset used is an iris dataset to implement a Support Vector Machine model to classify Iris species (Versicolor vs. Virginica) using Petal length and Petal width.
+-For Level 3 Task1, the dataset used is a Sentiment dataset 
+-For Level 3 Task 2, the dataset used is an iris dataset to implement a Support Vector Machine model to classify Iris species (Versicolor vs. Virginica) using Petal length and Petal width.
 
 ## Completed Tasks
 Here are the 6 tasks included in this repository:
@@ -58,21 +59,23 @@ error (MSE).
 - **Notebook:** `Task4/Task2_Level2.ipynb`
 
   ## Level 3
-  ### **Task 1: **Support Vector Machine (SVM) for Classification**
-- Performed data preprocessing, including Binary Label Encoding and Standardization (StandardScaler) to ensure optimal SVM margin calculation.
-- Trained and compared two different SVM kernels: Linear Kernel and RBF (Non-linear) Kernel.
-- Visualized Decision Boundaries using DecisionBoundaryDisplay.
-- Evaluated performance using performance metrics: Accuracy (90%), Precision (91.7%), Recall (91.7%), and ROC AUC.
-**Note:** While both models performed well, the RBF kernel achieved a superior AUC (0.990), proving its ability to better capture the overlapping distributions of the species through a curved boundary.
-- **Tools:** Python, pandas, scikit-learn, matplotlib.
-- **Notebook:** `Task6/Task2_Level3.ipynb`
+  ### **Task 1: **Build a Random Forest Classifier**
+- Performed data cleaning and preprocessing, including the generalization of different sentiments into three categories (Positive, Negative, and Neutral), the tokenization, and stemming of words.
+- -Performed vectorization to transform text.
+- Trained a Random Forest model and tune
+hyperparameters (class_weight, max_depth, min_sample_split and n_estimators).
+- Evaluated the model using classification metrics: precision, recall, F1-score.
+- Performed feature importance analysis to identify the
+most important features in the dataset.
+- **Tools:** Python, pandas, scikit-learn, matplotlib, seaborn, re, nltk.
+- **Notebook:** `Task5/Task1_Level3.ipynb`
   ### **Task 2: **Support Vector Machine (SVM) for Classification**
 - Performed data preprocessing, including Binary Label Encoding and Standardization (StandardScaler) to ensure optimal SVM margin calculation.
 - Trained and compared two different SVM kernels: Linear Kernel and RBF (Non-linear) Kernel.
 - Visualized Decision Boundaries using DecisionBoundaryDisplay.
 - Evaluated performance using performance metrics: Accuracy (90%), Precision (91.7%), Recall (91.7%), and ROC AUC.
 **Note:** While both models performed well, the RBF kernel achieved a superior AUC (0.990), proving its ability to better capture the overlapping distributions of the species through a curved boundary.
-- **Tools:** Python, pandas, scikit-learn, matplotlib.
+- **Tools:** Python, pandas, scikit-learn, matplotlib, seaborn.
 - **Notebook:** `Task6/Task2_Level3.ipynb`
   
 
