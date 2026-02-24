@@ -8,6 +8,7 @@ This repository contains the tasks completed as part of a machine learning inter
 -  For Level 1 Task 2, the dataset used is a **House Prediction dataset** containing numerical features to predict house prices.
 -  For Level 2 Task 1, the dataset used is a Telecom Customer Churn dataset for binary classification.
 -For Level 2 Task 2, the dataset used is an iris dataset.
+-For Level 3, Task 2, the dataset used is an iris dataset to implement a Support Vector Machine model to classify Iris species (Versicolor vs. Virginica) using Petal length and Petal width.
 
 ## Completed Tasks
 Here are the 6 tasks included in this repository:
@@ -55,4 +56,23 @@ error (MSE).
 - Evaluated the model using some classification metrics.
 - **Tools:** Python, pandas, scikit-learn, matplotlib, seaborn.
 - **Notebook:** `Task4/Task2_Level2.ipynb`
+
+  ## Level 3
+  ### **Task 1: **Support Vector Machine (SVM) for Classification**
+- Performed data preprocessing, including Binary Label Encoding and Standardization (StandardScaler) to ensure optimal SVM margin calculation.
+- Trained and compared two different SVM kernels: Linear Kernel and RBF (Non-linear) Kernel.
+- Visualized Decision Boundaries using DecisionBoundaryDisplay.
+- Evaluated performance using performance metrics: Accuracy (90%), Precision (91.7%), Recall (91.7%), and ROC AUC.
+**Note:** While both models performed well, the RBF kernel achieved a superior AUC (0.990), proving its ability to better capture the overlapping distributions of the species through a curved boundary.
+- **Tools:** Python, pandas, scikit-learn, matplotlib.
+- **Notebook:** `Task6/Task2_Level3.ipynb`
+  ### **Task 2: **Support Vector Machine (SVM) for Classification**
+- Performed data preprocessing, including Binary Label Encoding and Standardization (StandardScaler) to ensure optimal SVM margin calculation.
+- Trained and compared two different SVM kernels: Linear Kernel and RBF (Non-linear) Kernel.
+- Visualized Decision Boundaries using DecisionBoundaryDisplay.
+- Evaluated performance using performance metrics: Accuracy (90%), Precision (91.7%), Recall (91.7%), and ROC AUC.
+**Note:** While both models performed well, the RBF kernel achieved a superior AUC (0.990), proving its ability to better capture the overlapping distributions of the species through a curved boundary.
+- **Tools:** Python, pandas, scikit-learn, matplotlib.
+- **Notebook:** `Task6/Task2_Level3.ipynb`
+  
 
